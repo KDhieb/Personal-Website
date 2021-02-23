@@ -22,14 +22,14 @@
 @media all and (min-width: 351px) and (max-width: 620px) {
   /* put your css styles in here */
   #typewriter {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 }
 
 @media all and (min-width: 0px) and (max-width: 350px) {
   /* put your css styles in here */
   #typewriter {
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
 }
 
