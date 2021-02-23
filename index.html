@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="theme-color" content="#303030" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Khalid Dhieb's personal website." />
+    <script>
+      function load() {
+        var getElements = Array.prototype.slice.call(
+          document.getElementsByClassName("uniquesrc")
+        );
+        getElements.forEach((element) => {
+          element.style.backgroundImage =
+            "url(" + element.attributes["data-src"].value + ")";
+        });
+      }
+      window.onload = load;
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Khalid Dhieb</title>
+    <link rel="shortcut icon" href="icon.png" />
+  </head>
+
+  <body>
+    <div id="page1">
+      <img id="dp" src="img/dp4.jpeg" />
+      <h1>Khalid Dhieb</h1>
+      <br />
+      <p>
+        Computer Science @<a id="school"
+          href="https://www.ubc.ca/" target=_blank"
+          >UBC</a
+        >
+      </p>
+    </div>
+    <div id="block-container">
+      <div class="break">Projects</div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://go-lendahand.herokuapp.com/"
+        >
+          <div
+            data-src="./img/lendahand.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/lendahand.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>Lend A Hand</b>
+            <br />
+            <br />A volunteering recruitment website.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/KDhieb/inTouch"
+        >
+          <div
+            data-src="./img/intouch.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/intouch.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>inTouch</b>
+            <br />
+            <br />A site that lets friends find common availlabilities.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/KDhieb/Tetris"
+        >
+          <div
+            data-src="./img/tetris.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/tetris1.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>Tetris</b>
+            <br />
+            <br />A classic tetris game built with Java.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/williamhpark/RestoBot"
+        >
+          <div
+            data-src="./img/restobot.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/restobot.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>RestoBot</b>
+            <br />
+            <br />Facebook messenger bot for choosing restaurants with friends
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/KDhieb/LocalBusinessRecommender"
+        >
+          <div
+            data-src="./img/bizrec.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/bizrec.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>Business Recommender</b>
+            <br />
+            <br />Search by busyness-level and distance.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/KDhieb/FoodPal"
+        >
+          <div
+            data-src="./img/foodpal.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/foodpal.png');
+            "
+          ></div>
+
+          <div class="card-bottom">
+            <b>FoodPal</b>
+            <br />
+            <br />A meal, calorie and ingredient tracker.
+          </div>
+        </a>
+      </div>
+
+      <div class="break">Contact</div>
+
+      <div class="card">
+        <a
+          href="https://www.linkedin.com/in/kdhieb/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div
+            data-src="./img/linkedin.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/linkedin.png');
+            "
+          ></div>
+          <div class="card-bottom">
+            <b>Linkedin</b>
+            <br />
+            <br />
+            Always happy to connect
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://github.com/kdhieb" target="_blank" rel="noopener">
+          <div
+            data-src="./img/github.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/github.png');
+            "
+          ></div>
+          <div class="card-bottom">
+            <b>Github</b>
+            <br />
+            <br />
+            My life's work :')
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="./resumes/resume_2021.pdf" target="_blank" rel="noopener">
+          <div
+            data-src="./img/resume.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/resume.png');
+            "
+          ></div>
+          <div class="card-bottom">
+            <b>Resume</b>
+            <br />
+            <br />
+            Career Snapshot
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://devpost.com/KDhieb" target="_blank" rel="noopener">
+          <div
+            data-src="./img/devpost.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/devpost.png');
+            "
+          ></div>
+          <div class="card-bottom">
+            <b>Devpost</b>
+            <br />
+            <br />
+            Hackathon submissions
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="mailto:khalid.dhieb@gmail.com" target="_blank" rel="noopener">
+          <div
+            data-src="./img/email.png"
+            class="card-top uniquesrc"
+            style="
+              background-image: url('https://khaliddhieb.me/img/email.png');
+            "
+          ></div>
+          <div class="card-bottom">
+            <b>Email</b>
+            <br />
+            <br />
+            Best way to reach me
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
