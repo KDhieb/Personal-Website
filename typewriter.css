@@ -19,10 +19,17 @@
   animation: blink 500ms linear infinite alternate;
 }
 
-@media all and (min-width: 0px) and (max-width: 620px) {
+@media all and (min-width: 351px) and (max-width: 620px) {
   /* put your css styles in here */
   #typewriter {
     font-size: 0.7em;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 350px) {
+  /* put your css styles in here */
+  #typewriter {
+    font-size: 0.5em;
   }
 }
 
