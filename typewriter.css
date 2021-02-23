@@ -7,15 +7,23 @@
 }
 
 #typewriter {
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 0;
   font-family: "Courier New";
   color: gold;
 }
+
 #typewriter:after {
   content: "|";
   -webkit-animation: blink 500ms linear infinite alternate;
   animation: blink 500ms linear infinite alternate;
+}
+
+@media all and (min-width: 0px) and (max-width: 620px) {
+  /* put your css styles in here */
+  #typewriter {
+    font-size: 0.7em;
+  }
 }
 
 @-webkit-keyframes blink {
