@@ -4,6 +4,7 @@
     <meta name="theme-color" content="#303030" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Khalid Dhieb's personal website." />
+    
     <script>
       function load() {
         var getElements = Array.prototype.slice.call(
@@ -16,6 +17,8 @@
       }
       window.onload = load;
     </script>
+    
+    <script src="typewriter.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather&amp;display=swap"
       rel="stylesheet"
@@ -24,14 +27,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" type="text/css" href="typewriter.css"/>
+
     <link rel="stylesheet" type="text/css" href="main.css" />
     <title>Khalid Dhieb</title>
-    <link rel="shortcut icon" href="icon.png" />
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" />
+     -->
+     <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/man-technologist_1f468-200d-1f4bb.png"/>
   </head>
 
   <body>
     <div id="page1">
-      <img id="dp" src="img/dp4.jpeg" />
+      <img id="dp" src="img/dp.jpeg" />
       <h1>Khalid Dhieb</h1>
       <br />
       <p>
@@ -40,6 +48,24 @@
           >UBC</a
         >
       </p>
+
+<div class="container" style="min-height: 50px;">
+    <h1>
+        <a href="" id="typewriter" class="typewrite" data-period="2000" 
+        data-type='[ 
+        "Software Developer", 
+        "Problem Solver", 
+        "Hackathon Enthusiast", 
+        "Curious and Driven" ]'>
+          <span  class="wrap"></span>
+        </a>
+      </h1>
+
+</div>
+
+        
+
+
     </div>
     <div id="block-container">
       <div class="break">Projects</div>
@@ -127,7 +153,7 @@
           <div class="card-bottom">
             <b>RestoBot</b>
             <br />
-            <br />Facebook messenger bot for choosing restaurants with friends
+            <br />Facebook messenger bot for choosing restaurants with friends.
           </div>
         </a>
       </div>
@@ -212,7 +238,7 @@
             <b>Github</b>
             <br />
             <br />
-            My life's work :')
+            How I spend my spare time
           </div>
         </a>
       </div>
@@ -269,4 +295,5 @@
       </div>
     </div>
   </body>
+
 </html>
