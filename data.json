@@ -1,0 +1,91 @@
+{
+  "top": [],
+
+  "typedWords": [
+    "Software Developer",
+    "Problem Solver",
+    "Hackathon Enthusiast",
+    "Curious and Driven"
+  ],
+
+  "projects": [
+    {
+      "title": "LendAHand",
+      "description": "A volunteering recruitment website",
+      "link": "https://go-lendahand.herokuapp.com/",
+      "datasrc": "./img/lendahand.png"
+    },
+
+    {
+      "title": "inTouch",
+      "description": "A site that lets friends find common availlabilities.",
+      "link": "https://github.com/KDhieb/inTouch",
+      "datasrc": "./img/intouch.png"
+    },
+
+    {
+      "title": "Tetris",
+      "description": "A classic tetris game built with Java.",
+      "link": "https://github.com/KDhieb/Tetris",
+      "datasrc": "./img/tetris.png"
+    },
+
+    {
+      "title": "RestoBot",
+      "description": "Facebook messenger bot for choosing restaurants with friends",
+      "link": "https://github.com/williamhpark/RestoBot",
+      "datasrc": "./img/restobot.png"
+    },
+
+    {
+      "title": "Business Recommender",
+      "description": "Search by busyness-level and distance.",
+      "link": "https://go-lendahand.herokuapp.com/",
+      "datasrc": "./img/bizrec.png"
+    },
+
+    {
+      "title": "FoodPal",
+      "description": "A meal, calorie and ingredient tracker",
+      "link": "https://github.com/KDhieb/FoodPal",
+      "datasrc": "./img/foodpal.png"
+    }
+  ],
+
+  "contact": [
+    {
+      "title": "Linkedin",
+      "description": "Always happy to connect",
+      "link": "https://www.linkedin.com/in/kdhieb/",
+      "datasrc": "./img/linkedin.png"
+    },
+
+    {
+      "title": "Github",
+      "description": "How I spend my spare time",
+      "link": "https://github.com/kdhieb",
+      "datasrc": "./img/github.png"
+    },
+
+    {
+      "title": "Resume",
+      "description": "Career Snapshot",
+      "link": "./resumes/resume_2021.pdf",
+      "datasrc": "./img/resume.png"
+    },
+
+    {
+      "title": "Devpost",
+      "description": "Hackathon submissions",
+      "link": "https://devpost.com/KDhieb",
+      "datasrc": "./img/devpost.png"
+    },
+
+    {
+      "title": "Email",
+      "description": "Best way to reach me",
+      "link": "mailto:khalid.dhieb@gmail.com",
+      "datasrc": "./img/email.png"
+    }
+  ]
+}

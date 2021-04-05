@@ -11,11 +11,9 @@ body {
   background-color: #303030;
 }
 
-#mainIcon {
-  width: 10vh;
-  vertical-align: middle;
-  margin-left: 2vh;
-  margin-right: 2vh;
+a {
+  color: gold;
+  text-decoration: none;
 }
 
 h1 {
@@ -24,6 +22,19 @@ h1 {
   font-size: 6vh;
   vertical-align: middle;
   line-height: 8vh;
+}
+
+.title {
+  margin-top: 0px;
+  color: black;
+  font-weight: bold;
+}
+
+#mainIcon {
+  width: 10vh;
+  vertical-align: middle;
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
 
 #page1 {
@@ -35,8 +46,8 @@ h1 {
 
 #block-container {
   text-align: center;
-  max-width: 1280px;
-  /* max-width: 1500px; */
+  /* max-width: 1280px; */
+  max-width: 1500px;
   display: inline-block;
 }
 
@@ -95,11 +106,6 @@ h1 {
 .card-bottom b,
 .card-bottom strike {
   color: black;
-}
-
-a {
-  color: gold;
-  text-decoration: none;
 }
 
 .break {
