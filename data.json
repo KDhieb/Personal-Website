@@ -11,7 +11,7 @@
   "projects": [
     {
       "title": "LendAHand",
-      "description": "A volunteering recruitment website",
+      "description": "A volunteering recruitment website.",
       "link": "https://go-lendahand.herokuapp.com/",
       "datasrc": "./img/lendahand.png"
     },
@@ -32,7 +32,7 @@
 
     {
       "title": "RestoBot",
-      "description": "Facebook messenger bot for choosing restaurants with friends",
+      "description": "Facebook messenger bot for choosing restaurants with friends.",
       "link": "https://github.com/williamhpark/RestoBot",
       "datasrc": "./img/restobot.png"
     },
@@ -46,7 +46,7 @@
 
     {
       "title": "FoodPal",
-      "description": "A meal, calorie and ingredient tracker",
+      "description": "A meal, calorie and ingredient tracker.",
       "link": "https://github.com/KDhieb/FoodPal",
       "datasrc": "./img/foodpal.png"
     }
