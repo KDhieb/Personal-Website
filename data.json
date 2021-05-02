@@ -19,7 +19,7 @@
     {
       "title": "inTouch",
       "description": "A site that lets friends find common availlabilities.",
-      "link": "https://github.com/KDhieb/inTouch",
+      "link": "https://devpost.com/software/intouch-259ia0",
       "datasrc": "./img/intouch.png"
     },
 
@@ -33,7 +33,7 @@
     {
       "title": "RestoBot",
       "description": "Facebook messenger bot for choosing restaurants with friends.",
-      "link": "https://github.com/williamhpark/RestoBot",
+      "link": "https://devpost.com/software/resto-bot",
       "datasrc": "./img/restobot.png"
     },
 
