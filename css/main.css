@@ -115,6 +115,7 @@ a {
 .headshot-wrapper {
   /* position: fixed; */
   background-image: url("../img/dp.jpeg");
+  border-radius: 5%;
   background-size: cover;
   display: flex;
   align-self: center;

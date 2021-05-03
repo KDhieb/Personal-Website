@@ -80,7 +80,7 @@
       "tech": "Java, Swing, JUnit, JSON",
       "description": "A meal, calorie and ingredient tracker built using Java and the Swing UI package. Testing was done used JUnit. Data is persisted using JSON.",
       "link": "https://github.com/KDhieb/FoodPal",
-      "datasrc": "./img/foodpal.png"
+      "datasrc": "./img/foodpal.gif"
     }
   ],
 
