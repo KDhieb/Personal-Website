@@ -24,7 +24,7 @@
       "title": "LendAHand",
       "subtitle": "VanHacks 2020, 1st Place",
       "tech": "Python, Django, SQLite, HTML, CSS",
-      "description": "A volunteering recruitment website build to connect eager volunteers with local non-profit organizations.",
+      "description": "A volunteering recruitment website built to connect eager volunteers with local non-profit organizations.",
       "link": "https://go-lendahand.herokuapp.com/",
       "datasrc": "./img/lendahand.gif"
     },
@@ -33,7 +33,7 @@
       "title": "Pomo",
       "subtitle": "Personal Project",
       "tech": "JavaScript, Chrome API",
-      "description": "A productivity chrome extension made to help stay focused, time work sessions, and keep track of tasks. Features include browser alert notifcations, Chrome badge display for a quick glance at time left, and the ability to create, save, and mark off todo list items.",
+      "description": "A productivity chrome extension made to help stay focused, time work sessions, and keep track of tasks. Features include browser alert notifcations, time left displayed on Chrome badge, and the ability to create, save, and mark off todo list items.",
       "link": "#",
       "datasrc": "./img/pomo.gif"
     },
