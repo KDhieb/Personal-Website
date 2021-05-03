@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1250px) {
+  .headshot-wrapper {
+    /* margin-top: 30%; */
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .work-section-item {
+    height: 400px;
+  }
+
+  .headshot-wrapper {
+    /* position: fixed; */
+    margin-left: 0%;
+    /* margin: 30% auto; */
+    margin: 20% auto;
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #logo {
+    font-size: 23px;
+  }
+
+  .work-section-item {
+    /* justify-content: space-around; */
+    /* display: flex; */
+    /* justify-items: center; */
+    flex-wrap: wrap;
+  }
+
+  .work-section-item-title {
+    font-size: 24px;
+    color: #ebb82c;
+  }
+
+  .cd-words-wrapper {
+    font-size: 30px;
+  }
+
+  .work-section-item img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+
+  .work-section-item-text {
+    /* border: 1px solid green; */
+    min-width: 100%;
+    width: 200px;
+  }
+
+  .work-section-image {
+    /* width: 100%; */
+    object-fit: scale-down;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #navbar-links {
+    display: none;
+  }
+
+  .skills-section-items {
+    flex-direction: column;
+  }
+
+  .skills-section-item + .skills-section-item {
+    margin: 5px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .work-section-item {
+    flex-direction: column;
+    height: unset;
+    padding: 20px 20px;
+    align-items: flex-start;
+  }
+
+  .work-section-item img {
+    margin-top: 10px;
+    margin-left: unset;
+    /* margin-right: auto; */
+  }
+
+  .skills-section-item-title,
+  .skills-section-item-skills,
+  .work-section-item-title {
+    font-size: 16px;
+  }
+
+  .skills-section-item-skills {
+    font-size: 16px;
+  }
+
+  #footer-copyright {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #logo {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #logo {
+    font-size: 13px;
+  }
+}
