@@ -70,7 +70,7 @@
       "subtitle": "NwPlus HackCamp 2020",
       "tech": "Python, Tkinter, Google Places API",
       "description": "A simple app made to search for local businesses based on busyness-level and distance, built during NwPlus HackCamp 2020. The app also filters out all currently closed listings.",
-      "link": "https://go-lendahand.herokuapp.com/",
+      "link": "https://github.com/KDhieb/LocalBusinessRecommender",
       "datasrc": "./img/bizrec.png"
     },
 
