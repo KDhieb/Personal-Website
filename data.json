@@ -4,12 +4,18 @@
   "about": "Being a 3rd year Computer Science student at the University of British Columbia, I spend my time working on multiple passion projects, attending hackathons, and learning about exciting techology. What motivates me is the creative and problem-solving nature of tech industry, and the feeling of translating an idea from paper to reality.",
 
   "skills": [
-    { "title": "Languages", "skills": "Python, Java, JavaScript, C, C++, R" },
     {
-      "title": "Web",
-      "skills": "HTML5, CSS3, Django, SQLite, <br> NodeJS, MongoDB, Express, Firebase"
+      "title": "Languages",
+      "skills": "Java, Python, JavaScript, C++, C, R, HTMl, CSS"
     },
-    { "title": "Tools", "skills": "Git, Linux, Postman, Docker" }
+    {
+      "title": "Tools",
+      "skills": "React, NodeJS, MongoDB, Express, Firebase, Django, SQLite, JUnit, AWS"
+    },
+    {
+      "title": "Other",
+      "skills": "Git, Bash, Docker, RESTful APIs, OOP, Agile"
+    }
   ],
 
   "typedWords": [
@@ -104,7 +110,7 @@
     {
       "title": "Resume",
       "description": "Career Snapshot",
-      "link": "./files/Resume_online.pdf",
+      "link": "./files/Khalid Dhieb_Resume.pdf",
       "datasrc": "./img/resume.png",
       "class": "fas fa-file"
     },
