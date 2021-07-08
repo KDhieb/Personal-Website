@@ -425,7 +425,7 @@ ANIMATE EMOJI
 .work-section-item {
   /* border: 1px solid purple; */
   /* padding: 0 20px; */
-  height: 200px;
+  height: 250px;
   width: calc(100% - 40px);
   display: flex;
   justify-content: space-between;

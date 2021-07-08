@@ -1,7 +1,7 @@
 {
   "top": [],
 
-  "about": "Being a 3rd year Computer Science student at the University of British Columbia, I spend my time working on multiple passion projects, attending hackathons, and learning about exciting techology. What motivates me is the creative and problem-solving nature of tech industry, and the feeling of translating an idea from paper to reality.",
+  "about": "Being a 4th year Computer Science student at the University of British Columbia, I spend my time working on multiple passion projects, attending hackathons, and learning about exciting techology. What motivates me is the creative and problem-solving nature of tech industry, and the feeling of translating an idea from paper to reality.",
 
   "skills": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "title": "Tools",
-      "skills": "React, NodeJS, MongoDB, Express, Firebase, Django, SQLite, JUnit, AWS"
+      "skills": "React, NodeJS, SQL, MongoDB, Express, Firebase, Django, JUnit, AWS"
     },
     {
       "title": "Other",
@@ -26,6 +26,15 @@
   ],
 
   "projects": [
+    {
+      "title": "Twittar",
+      "subtitle": "Personal Project",
+      "tech": "React, NodeJS, Express, PostgreSQL, AWS (S3, Amplify, Cognito), Heroku",
+      "description": "A Twitter clone! Used S3 to store profile pictures, Cognito to authenticate users, Heroku Postgres for cloud database access, and Express for managing API endpoints and serving static React files.",
+      "link": "https://gotwittar.herokuapp.com/",
+      "datasrc": "./img/twittar.gif"
+    },
+
     {
       "title": "LendAHand",
       "subtitle": "VanHacks 2020, 1st Place",
@@ -47,7 +56,7 @@
     {
       "title": "inTouch",
       "subtitle": "TreeHacks 2021",
-      "tech": "Node.js, React, Express, Firebase, Google Calendar API",
+      "tech": "NodeJS, React, Express, Firebase, Google Calendar API",
       "description": "A site that lets friends find common availlabilities, built during TreeHacks 2021. Users can log in using Gmail, import their Google calendar, find overlapping free timeslots among their friends, and send them google event invites.",
       "link": "https://devpost.com/software/intouch-259ia0",
       "datasrc": "./img/intouch.gif"
