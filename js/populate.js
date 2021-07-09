@@ -1,21 +1,29 @@
 window.addEventListener("load", myInit, true);
 
 function myInit() {
-  loadJSON(fillContact);
-  loadJSON(fillSkills);
-  loadJSON(fillProjects);
+  var callbackList = [fillContact, fillSkills, fillProjects, fillBio];
+  // loadJSON(fillContact);
+  // loadJSON(fillSkills);
+  // loadJSON(fillProjects);
+  loadJSON(callbackList);
 }
 
-function loadJSON(callback) {
+function loadJSON(callbacks) {
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
   xobj.open("GET", "./data.json", true);
   xobj.onreadystatechange = function () {
     if (xobj.readyState == 4 && xobj.status == "200") {
-      callback(JSON.parse(xobj.responseText));
+      for (let i = 0; i < callbacks.length; i++)
+        callbacks[i](JSON.parse(xobj.responseText));
+      // callback(JSON.parse(xobj.responseText));
     }
   };
   xobj.send(null);
+}
+
+function fillBio(data) {
+  document.getElementById("about-text").innerHTML = data.about;
 }
 
 function fillProjects(data) {
@@ -26,6 +34,7 @@ function fillProjects(data) {
 function fillContact(data) {
   var parentDiv = document.getElementById("contact-wrapper");
   var topDiv = document.createElement("h2");
+
   data.contact.forEach((element) => {
     var anchor = document.createElement("A");
     anchor.classList.add("contact-element");
@@ -49,7 +58,7 @@ function fillContact(data) {
 
 function fillSections(parentElement, dataArray) {
   var topWrapper = document.createElement("div");
-  topWrapper.classList.add("work-section-items");
+  topWrapper.classList.add("project-section-items");
 
   dataArray.forEach((element) => {
     var itemWrapper = document.createElement("A");
@@ -60,13 +69,13 @@ function fillSections(parentElement, dataArray) {
     var textWrapper = document.createElement("div");
     var img = document.createElement("img");
     img.src = element.datasrc;
-    img.classList.add("work-section-image");
+    img.classList.add("project-section-image");
 
-    itemWrapper.classList.add("work-section-item");
-    contentWrapper.classList.add("work-section-item-text");
-    titleWrapper.classList.add("work-section-item-title");
-    subtitleWrapper.classList.add("work-section-item-location");
-    textWrapper.classList.add("work-section-item-description");
+    itemWrapper.classList.add("project-section-item");
+    contentWrapper.classList.add("project-section-item-text");
+    titleWrapper.classList.add("project-section-item-title");
+    subtitleWrapper.classList.add("project-section-item-location");
+    textWrapper.classList.add("project-section-item-description");
 
     titleWrapper.innerHTML = element.title;
     subtitleWrapper.innerHTML = element.tech;
@@ -78,10 +87,28 @@ function fillSections(parentElement, dataArray) {
     contentWrapper.appendChild(textWrapper);
     itemWrapper.appendChild(contentWrapper);
     itemWrapper.appendChild(img);
-    itemWrapper.href = element.link;
+    // itemWrapper.href = element.link;
     itemWrapper.style.textDecoration = "none";
     itemWrapper.target = "_blank";
     topWrapper.appendChild(itemWrapper);
+
+    var buttonWrapper = document.createElement("div");
+    buttonWrapper.classList.add("project-section-item-buttons");
+    element.links.forEach((btn) => {
+      if (btn.link) {
+        var projectButton = document.createElement("a");
+        projectButton.href = btn.link;
+        projectButton.target = "_blank";
+        projectButton.classList.add("project-section-item-button");
+        var classes = btn.iconClass.split(" ");
+        projectButton.classList.add(classes[0]);
+        projectButton.classList.add(classes[1]);
+        projectButton.classList.add("fa-2x");
+        buttonWrapper.appendChild(projectButton);
+      }
+    });
+
+    contentWrapper.appendChild(buttonWrapper);
   });
   parentElement.appendChild(topWrapper);
 }

@@ -32,7 +32,17 @@
       "tech": "React, NodeJS, Express, PostgreSQL, AWS (S3, Amplify, Cognito), Heroku",
       "description": "A Twitter clone! Used S3 to store profile pictures, Cognito to authenticate users, Heroku Postgres for cloud database access, and Express for managing API endpoints and serving static React files.",
       "link": "https://gotwittar.herokuapp.com/",
-      "datasrc": "./img/twittar.gif"
+      "datasrc": "./img/twittar.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/twittar"
+        },
+        {
+          "iconClass": "fas fa-eye",
+          "link": "https://gotwittar.herokuapp.com/"
+        }
+      ]
     },
 
     {
@@ -41,7 +51,17 @@
       "tech": "Python, Django, SQLite, HTML, CSS",
       "description": "A volunteering recruitment website built to connect eager volunteers with local non-profit organizations.",
       "link": "https://go-lendahand.herokuapp.com/",
-      "datasrc": "./img/lendahand.gif"
+      "datasrc": "./img/lendahand.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/Volunteer_Recruitment_Platform"
+        },
+        {
+          "iconClass": "fas fa-eye",
+          "link": "https://go-lendahand.herokuapp.com/"
+        }
+      ]
     },
 
     {
@@ -50,7 +70,11 @@
       "tech": "JavaScript, Chrome API",
       "description": "A productivity chrome extension made to help stay focused, time work sessions, and keep track of tasks. Features include browser alert notifcations, time left displayed on Chrome badge, and the ability to create, save, and mark off todo list items.",
       "link": "#",
-      "datasrc": "./img/pomo.gif"
+      "datasrc": "./img/pomo.gif",
+      "links": [
+        { "iconClass": "fab fa-github-square", "link": null },
+        { "iconClass": "fas fa-eye", "link": null }
+      ]
     },
 
     {
@@ -59,7 +83,17 @@
       "tech": "NodeJS, React, Express, Firebase, Google Calendar API",
       "description": "A site that lets friends find common availlabilities, built during TreeHacks 2021. Users can log in using Gmail, import their Google calendar, find overlapping free timeslots among their friends, and send them google event invites.",
       "link": "https://devpost.com/software/intouch-259ia0",
-      "datasrc": "./img/intouch.gif"
+      "datasrc": "./img/intouch.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/inTouch"
+        },
+        {
+          "iconClass": "fas fa-eye",
+          "link": "https://devpost.com/software/intouch-259ia0"
+        }
+      ]
     },
 
     {
@@ -68,7 +102,14 @@
       "tech": "Java, JavaFx",
       "description": "This is a classic tetris game built with Java using the JavaFx UI package. Users can move and rotate blocks using the spacebar and arrow keys.",
       "link": "https://github.com/KDhieb/Tetris",
-      "datasrc": "./img/tetrisHalf.gif"
+      "datasrc": "./img/tetrisHalf.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/Tetris"
+        },
+        { "iconClass": "fas fa-eye", "link": null }
+      ]
     },
 
     {
@@ -77,7 +118,17 @@
       "tech": "Node.js, Express, MongoDB, Messenger API, Yelp API, radar.io, wit.ai",
       "description": "Facebook messenger bot for choosing restaurants with friends, built during Hack the North 2021. The app displays local restaurant data and allows friends to vote on their favorite restaurant.",
       "link": "https://devpost.com/software/resto-bot",
-      "datasrc": "./img/restobot.gif"
+      "datasrc": "./img/restobot.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/RestoBot"
+        },
+        {
+          "iconClass": "fas fa-eye",
+          "link": "https://devpost.com/software/resto-bot"
+        }
+      ]
     },
 
     {
@@ -86,7 +137,14 @@
       "tech": "Python, Tkinter, Google Places API",
       "description": "A simple app made to search for local businesses based on busyness-level and distance, built during NwPlus HackCamp 2020. The app also filters out all currently closed listings.",
       "link": "https://github.com/KDhieb/LocalBusinessRecommender",
-      "datasrc": "./img/bizrec.png"
+      "datasrc": "./img/bizrec.png",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/LocalBusinessRecommender"
+        },
+        { "iconClass": "fas fa-eye", "link": null }
+      ]
     },
 
     {
@@ -95,7 +153,14 @@
       "tech": "Java, Swing, JUnit, JSON",
       "description": "A meal, calorie and ingredient tracker built using Java and the Swing UI package. Testing was done used JUnit. Data is persisted using JSON.",
       "link": "https://github.com/KDhieb/FoodPal",
-      "datasrc": "./img/foodpal.gif"
+      "datasrc": "./img/foodpal.gif",
+      "links": [
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/FoodPal"
+        },
+        { "iconClass": "fas fa-eye", "link": null }
+      ]
     }
   ],
 

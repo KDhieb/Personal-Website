@@ -409,23 +409,27 @@ ANIMATE EMOJI
   padding: 50px 0;
 }
 
-.work-section {
+.project-section {
   padding-top: 50px;
 }
 
-.work-section h2 {
+.project-section h2 {
   color: #ebb82c;
 }
 
-.work-section-items {
+.project-section-items {
   display: flex;
   flex-direction: column;
 }
 
-.work-section-item {
+.project-section-item {
+  /* padding-right: 20px; */
   /* border: 1px solid purple; */
   /* padding: 0 20px; */
-  height: 250px;
+  cursor: pointer;
+  /* height: 250px; */
+  min-height: 250px;
+  /* height: 1000px; */
   width: calc(100% - 40px);
   display: flex;
   justify-content: space-between;
@@ -435,22 +439,24 @@ ANIMATE EMOJI
   transition: 0.1s;
 }
 
-.work-section-item:hover {
+.project-section-item:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
-.work-section-item:hover > .work-section-item-text > .work-section-item-title {
+.project-section-item:hover
+  > .project-section-item-text
+  > .project-section-item-title {
   color: #ebb82c;
 }
 
-.work-section-item:hover > img {
+.project-section-item:hover > img {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
 
-.work-section-item-text {
+.project-section-item-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -460,7 +466,7 @@ ANIMATE EMOJI
   /* border: 1px solid red; */
 }
 
-.work-section-item img {
+.project-section-item img {
   height: 100%;
   min-width: 50%;
   /* max-width: 30%; */
@@ -470,24 +476,39 @@ ANIMATE EMOJI
   opacity: 0.5;
 }
 
-.work-section-item-title {
+.project-section-item-title {
   transition: 0.1s;
   font-size: 18px;
   color: white;
   margin-bottom: 5px;
 }
 
-.work-section-item-location {
+.project-section-item-location {
   font-size: 16px;
   color: white;
   opacity: 0.5;
 }
 
-.work-section-item-description {
+.project-section-item-description {
   transition: 0.1s;
   font-size: 15px;
   color: white;
   margin-bottom: 5px;
+}
+
+.project-section-item-buttons {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-section-item-button {
+  color: white;
+  text-decoration: none;
+}
+
+.project-section-item-button:hover {
+  color: #ebb82c;
 }
 
 .skills-section-items {
@@ -559,7 +580,7 @@ ANIMATE EMOJI
 
 /* PROJECT IMAGES */
 
-.work-section-image {
+.project-section-image {
   /* border: 1px solid green; */
   position: sticky;
   /* width: 300px; */
