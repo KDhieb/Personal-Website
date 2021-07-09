@@ -125,6 +125,23 @@
   #logo {
     font-size: 19px;
   }
+
+  .project-section-item:hover {
+    cursor: pointer;
+    background-color: initial;
+    border-bottom-color: initial;
+  }
+
+  .project-section-item:hover
+    > .project-section-item-text
+    > .project-section-item-title {
+    color: initial;
+  }
+
+  .project-section-item:hover > img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
 }
 
 @media only screen and (max-width: 320px) {
