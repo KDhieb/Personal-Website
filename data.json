@@ -72,7 +72,10 @@
       "link": "#",
       "datasrc": "./img/pomo.gif",
       "links": [
-        { "iconClass": "fab fa-github-square", "link": null },
+        {
+          "iconClass": "fab fa-github-square",
+          "link": "https://github.com/KDhieb/Pomodoro-chrome-extension"
+        },
         { "iconClass": "fas fa-eye", "link": null }
       ]
     },
