@@ -1,10 +1,13 @@
 window.addEventListener("load", myInit, true);
 
 function myInit() {
-  var callbackList = [fillContact, fillSkills, fillProjects, fillBio];
-  // loadJSON(fillContact);
-  // loadJSON(fillSkills);
-  // loadJSON(fillProjects);
+  var callbackList = [
+    fillSkills,
+    fillContact,
+    fillProjects,
+    fillBio,
+    fillExperiences,
+  ];
   loadJSON(callbackList);
 }
 
@@ -16,10 +19,31 @@ function loadJSON(callbacks) {
     if (xobj.readyState == 4 && xobj.status == "200") {
       for (let i = 0; i < callbacks.length; i++)
         callbacks[i](JSON.parse(xobj.responseText));
-      // callback(JSON.parse(xobj.responseText));
     }
   };
   xobj.send(null);
+}
+
+function fillExperiences(data) {
+  const workDiv = document.getElementById("work");
+  const volunteerDiv = document.getElementById("volunteering");
+
+  const workData = data.work; // set css?
+  const volunteerData = data.volunteering;
+
+  workData.forEach((data) => {
+    // wrapper div
+    // image
+    // text
+    // add to workDiv
+  });
+
+  volunteerData.forEach((data) => {
+    // wrapper div
+    // image
+    // text
+    // add to volunteerDiv
+  });
 }
 
 function fillBio(data) {
@@ -32,6 +56,8 @@ function fillProjects(data) {
 }
 
 function fillContact(data) {
+  var resumeOnly = true;
+
   var parentDiv = document.getElementById("contact-wrapper");
   var topDiv = document.createElement("h2");
 
@@ -61,7 +87,7 @@ function fillSections(parentElement, dataArray) {
   topWrapper.classList.add("project-section-items");
 
   dataArray.forEach((element) => {
-    var itemWrapper = document.createElement("A");
+    var itemWrapper = document.createElement("div");
     var contentWrapper = document.createElement("div");
     var titleWrapper = document.createElement("div");
     var subtitleWrapper = document.createElement("div");
@@ -72,6 +98,7 @@ function fillSections(parentElement, dataArray) {
     img.classList.add("project-section-image");
 
     itemWrapper.classList.add("project-section-item");
+    // itemWrapper.style.backgroundColor = "grey";
     contentWrapper.classList.add("project-section-item-text");
     titleWrapper.classList.add("project-section-item-title");
     subtitleWrapper.classList.add("project-section-item-location");
@@ -85,8 +112,12 @@ function fillSections(parentElement, dataArray) {
     contentWrapper.appendChild(subtitleWrapper);
     contentWrapper.appendChild(br);
     contentWrapper.appendChild(textWrapper);
-    itemWrapper.appendChild(contentWrapper);
+
+    // contentWrapper.style.border = "1px solid red";
+    // img.style.border = "5px solid green";
+
     itemWrapper.appendChild(img);
+    itemWrapper.appendChild(contentWrapper);
     // itemWrapper.href = element.link;
     itemWrapper.style.textDecoration = "none";
     itemWrapper.target = "_blank";

@@ -32,7 +32,7 @@
   </head>
 
   <body>
-    <div style="border:0px solid green" id="navbar">
+    <div id="navbar">
 
       <div class="wrapper">
         <a  id="logo" href="https://khaliddhieb.me">
@@ -40,7 +40,7 @@
           
         <div class="navbar-main">
           <a class="navbar-link" href="javascript:onNavClick('about')">About</a>
-          <a class="navbar-link" href="javascript:onNavClick('work')">Projects</a>
+
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
 
     <div id="main">
       <!-- <div id="main-background"></div> -->
-      <div class="wrapper">
+      <div class="wrapper top-wrapper">
         <div id="main-content">
           <h1 class="cd-headline slide" id="main-header">
             Hey 👋 I'm Khalid.<br />
@@ -76,16 +76,40 @@
 
     <div id="about">
 
-  
       <div id="about-top">
-        <div class="wrapper">
+        <div class="wrapper top-wrapper">
           <h2 data-scroll-index="0">About me</h2>
           <p id="about-text"/>
           </p> 
 
+          <div id="contact-wrapper"></div>
+          <hr>
+
+          <h3> Work Experience </h3>
+          <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; ">
+          <a class="zoom" href="https://about.facebook.com/meta/" target="_blank"><img class="org-logo" style="width: 200px;" src="./img/meta_logo.png"/></a>
+          <a class="zoom" href="https://stripe.com" target="_blank"><img class="org-logo" style="width: 200px" src="./img/stripe_logo.png"/> </a>
+          <a class="zoom" href="https://www.sap.com" target="_blank"><img class="org-logo" style="width: 150px;" src="./img/sap_logo.png"/> </a>
+        </div>
+
+        <hr>
+          <h3> Volunteering </h3>
+
+        <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
+          <a class="zoom" href="https://www.manara.tech" target="_blank"><img class="org-logo" src="./img/manara_logo.png"/></a>
+          <a class="zoom" href="https://www.canadalearningcode.ca" target="_blank"><img class="org-logo" src="./img/clc_logo.png"/></a>
+        </div>
+
+        <!-- <hr> 
+
+
+
+
+
+
           <br> 
-          <h2>Get in touch</h2>
-          <div id="contact-wrapper">
+          <h2>Get in touch</h2> -->
+          <!-- <div id="contact-wrapper"> -->
 
           </div>
 
@@ -99,7 +123,7 @@
  
     </div>
 
-    <div id="work">
+    <div id="projects_top">
       <div class="wrapper">
         <h2 style="color: white">Things I've done</h2>
 
@@ -157,7 +181,7 @@
     </div> -->
 
     <div id="about-bottom">
-      <div class="wrapper">
+      <div class="footer wrapper">
         <a href="https://www.linkedin.com/in/kdhieb/" target="_blank"
           ><i class="fab fa-linkedin-in"></i
         ></a>
