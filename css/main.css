@@ -11,12 +11,10 @@ body {
   padding: 0;
   background-color: #151515;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
 }
 
 .wrapper {
   max-width: 1250px;
-  /* height: 100%; */
   margin: 0 auto;
 }
 
@@ -25,7 +23,6 @@ body {
   height: 80%;
   display: flex;
   justify-content: space-around;
-  /* overflow-x: hidden; */
 }
 
 p {
@@ -66,7 +63,6 @@ a {
   position: absolute;
   z-index: 3;
   width: 100%;
-  /* min-height: 40px; */
   height: 40px;
   background-color: #151515;
 }
@@ -78,8 +74,6 @@ a {
 }
 
 #logo {
-  /* display: flex; */
-  /* width: fit-content; */
   flex-wrap: nowrap;
   font-size: 20px;
   text-decoration: none;
@@ -89,7 +83,6 @@ a {
 
 .navbar-main {
   display: flex;
-  /* width: 35%; */
 }
 
 .navbar-link {
@@ -121,15 +114,12 @@ a {
 }
 
 .headshot-wrapper {
-  /* position: fixed; */
   background-image: url("../img/dp.jpeg");
   border-radius: 5%;
   background-size: cover;
   display: flex;
   align-self: center;
   margin-top: 40px;
-  /* margin-left: 20%; */
-  /* border: 2px solid orange; */
   width: 300px;
   height: 300px;
 }
@@ -149,7 +139,6 @@ a {
   background-color: white;
   position: absolute;
   color: white;
-  /* border: 1px solid green; */
   margin-top: 150px;
   margin-left: 150px;
   height: 50px;
@@ -157,8 +146,6 @@ a {
 }
 
 #main-content {
-  /* z-index: 1; */
-  /* min-width: 530px; */
   min-width: 60%;
   font-size: 10px;
 }
@@ -363,7 +350,6 @@ ANIMATE EMOJI
   margin: 20px 0px;
   width: auto;
   height: auto;
-  /* border: 1px solid black; */
 }
 
 #contact-bar {
@@ -443,15 +429,8 @@ ANIMATE EMOJI
 }
 
 .project-section-item {
-  /* padding-right: 20px; */
-  /* border: 1px solid purple; */
-  /* padding: 0 20px; */
   cursor: pointer;
-  /* height: 250px; */
   min-height: 400px;
-  /* max-height: 450px; */
-  /* height: fit-content; */
-  /* height: 400px; */
   width: calc(100% -70px);
   display: flex;
   justify-content: center;
@@ -466,20 +445,12 @@ ANIMATE EMOJI
 
 .project-section-item:hover {
   cursor: pointer;
-  /* background-color: rgba(255, 255, 255, 0.1); */
-  /* border-bottom-color: rgba(255, 255, 255, 0); */
 }
 
 .project-section-item:hover
   > .project-section-item-text
   > .project-section-item-title {
   color: #ebb82c;
-}
-
-.project-section-item:hover > img {
-  /* -webkit-filter: grayscale(0%);  */
-  /* Safari 6.0 - 9.0 */
-  /* filter: grayscale(0%); */
 }
 
 .project-section-item-text {
@@ -490,29 +461,15 @@ ANIMATE EMOJI
   padding: 0% 1%;
   max-width: 50%;
   height: auto;
-  /* border-left: 2px solid grey; */
   min-height: 500px;
   max-height: 500px;
   background-color: black;
   border-radius: 0%;
-  /* margin-bottom: -2px; */
-  /* border-left: 1px solid black; */
-  /* border: 1px solid purple; */
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
-  /* border: 1px solid red; */
 }
 
 .project-section-item img {
   height: 100%;
   min-width: 50%;
-  /* border: 1px solid white; */
-  /* max-width: 30%; */
-  /* margin-left: auto; */
-  /* -webkit-filter: grayscale(100%); 
-  Safari 6.0 - 9.0 */
-  /* filter: grayscale(100%); */
-  /* opacity: 0.5; */
 }
 
 .project-section-item-title {
@@ -520,14 +477,12 @@ ANIMATE EMOJI
   font-size: 30px;
   color: white;
   width: max-content;
-  /* margin-bottom: 5px; */
   padding-top: 20%;
 }
 
 .project-section-item-location {
   font-size: 16px;
   color: white;
-  /* color: black; */
   opacity: 0.5;
   text-align: center;
 }
@@ -537,7 +492,6 @@ ANIMATE EMOJI
   font-size: 20px;
   color: white;
   width: 90%;
-  /* color: black; */
   margin-bottom: 5px;
 }
 
@@ -546,16 +500,13 @@ ANIMATE EMOJI
   margin: 10% 5%;
   display: flex;
   justify-content: space-evenly;
-  /* font-size: 25px; */
   width: 50%;
 }
 
 .project-section-item-button {
   color: white;
-  /* color: black; */
   font-size: 40px;
   text-decoration: none;
-  /* margin-right: 80%; */
 }
 
 .project-section-item-button:hover {
@@ -590,24 +541,8 @@ ANIMATE EMOJI
   line-height: 26px;
 }
 
-/* ---------------------------- */
-/* ---------- FOOTER ---------- */
-/* ---------------------------- */
-/* .footer {
-  width: 100%;
-  height: 360px;
-  background-color: white;
-  color: #222;
-  vertical-align: middle;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 5%;
-} */
-
 .footer {
-  padding-top: 3%;
+  padding-top: 25px;
 }
 
 #footer .wrapper {
@@ -640,32 +575,22 @@ ANIMATE EMOJI
 }
 
 /* PROJECT IMAGES */
-
 .project-section-image {
   position: sticky;
   object-fit: scale-down;
-  /* border-right: 3px solid black; */
-
   padding-right: 1px;
-  /* background-color: white; */
-  /* width: 50%; */
   height: 250px;
   max-width: 500px;
   min-width: 300px;
   max-height: 500px;
   margin: 2% 0%;
   object-fit: cover;
-  /* width: 200px; */
   padding-left: 30px;
   height: 50%;
 }
 
 .zoom {
-  /* padding: 50px; */
   transition: transform 0.2s; /* Animation */
-  /* width: 200px;
-  height: 200px; */
-  /* margin: 0 auto; */
 }
 
 .zoom:hover {

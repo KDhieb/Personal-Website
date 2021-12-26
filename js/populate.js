@@ -62,22 +62,24 @@ function fillContact(data) {
   var topDiv = document.createElement("h2");
 
   data.contact.forEach((element) => {
-    var anchor = document.createElement("A");
-    anchor.classList.add("contact-element");
-    var i = document.createElement("i");
-    var title = document.createTextNode(" " + element.title);
+    if (!resumeOnly || (resumeOnly && element.title == "Resume")) {
+      var anchor = document.createElement("A");
+      anchor.classList.add("contact-element");
+      var i = document.createElement("i");
+      var title = document.createTextNode(" " + element.title);
 
-    anchor.classList.add("btn");
-    anchor.classList.add("btn-outline-warning");
-    var faClasses = element.class.split(" ");
-    i.classList.add(faClasses[0]);
-    i.classList.add(faClasses[1]);
-    anchor.href = element.link;
-    anchor.target = "_blank";
-    anchor.appendChild(i);
-    anchor.appendChild(title);
-    topDiv.appendChild(anchor);
-    topDiv.appendChild(document.createTextNode(" "));
+      anchor.classList.add("btn");
+      anchor.classList.add("btn-outline-warning");
+      var faClasses = element.class.split(" ");
+      i.classList.add(faClasses[0]);
+      i.classList.add(faClasses[1]);
+      anchor.href = element.link;
+      anchor.target = "_blank";
+      anchor.appendChild(i);
+      anchor.appendChild(title);
+      topDiv.appendChild(anchor);
+      topDiv.appendChild(document.createTextNode(" "));
+    }
   });
   parentDiv.appendChild(topDiv);
 }

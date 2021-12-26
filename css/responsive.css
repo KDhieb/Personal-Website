@@ -26,6 +26,14 @@
 
 }
 
+@media only screen and (max-width: 800px) {
+  #main-header {
+    width: 500px;
+    
+  }
+}
+
+
 @media only screen and (max-width: 750px) {
   /* .project-section-item-text {
     min-height: fit-content;
@@ -33,7 +41,7 @@
 
 
   .cd-headline.slide {
-    font-size: 40px;
+    /* font-size: 48px; */
   }
 
   .headshot-wrapper {
@@ -60,11 +68,12 @@
   }
 
     #main-content {
-      font-size: 20px;
+      /* font-size: 20px; */
     }
 
+
   .cd-words-wrapper {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .project-section-item-text {
