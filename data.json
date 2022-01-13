@@ -183,7 +183,7 @@
       "title": "FoodPal",
       "subtitle": "CPSC 210 Project",
       "tech": "Java, Swing, JUnit, JSON",
-      "description": "A meal, calorie and ingredient tracker built using Java and the Swing UI package. Testing was done used JUnit. Data is persisted using JSON.",
+      "description": "A meal, calorie and ingredient tracker built using Java and the Swing UI package. Used JUnit for testing. Data is persisted using JSON.",
       "link": "https://github.com/KDhieb/FoodPal",
       "datasrc": "./img/foodpal.gif",
       "links": [
