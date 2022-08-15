@@ -2,7 +2,7 @@ window.addEventListener("load", myInit, true);
 
 function myInit() {
   var callbackList = [
-    fillSkills,
+    // fillSkills,
     fillContact,
     fillProjects,
     fillBio,
